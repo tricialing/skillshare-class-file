@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<head>
+<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
+<title>Having Fun With webfonts and Web Typography</title>
+
+<link rel="stylesheet" href="style.css">
+ 
+
+<!-- SCRIPTS -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+  <script src="scripts/jquery.lettering.js"></script>
+  <script>
+    $(document).ready(function() {
+      $("#having_fun_header").lettering();
+    });
+  </script>
+
+</head>
+
+
+<body class="having_fun">
+
+
+<div class="wrapper">
+
+  <h1 id="having_fun_header">bikebook<br>
+
+  Brooklyn, NY</h1>
+
+  <img src="images/bike.png" alt="imge of fixed gear">
+
+  <a href="with.html" class="next" title="next">&#9758;</a>
+
+</div>
+
+
+
+  <script src="scripts/jquery.fittext.js"></script>
+    <script type="text/javascript">
+      $("#having_fun_header").fitText(0.8);
+    </script>
+</body>
+</html>
